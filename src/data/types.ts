@@ -1,4 +1,4 @@
-interface sushi {
+interface uramakiData {
   name: string;
   ingredients: string;
   price: number;
@@ -6,4 +6,4 @@ interface sushi {
   soldOut: boolean;
 }
 
-export default sushi;
+export default uramakiData;
