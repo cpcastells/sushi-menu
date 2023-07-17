@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
 import AppStyled from "./AppStyled";
@@ -7,6 +8,7 @@ const App = (): React.ReactElement => {
     <AppStyled>
       <Header />
       <Menu />
+      <Footer />
     </AppStyled>
   );
 };
