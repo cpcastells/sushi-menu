@@ -9,7 +9,7 @@ const HeaderStyled = styled.header`
     font-weight: 300;
     letter-spacing: 3px;
     width: 100%;
-    padding: 40px;
+    padding-top: 10px;
   }
 `;
 

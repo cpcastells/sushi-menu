@@ -15,7 +15,6 @@ const MenuStyled = styled.main`
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 500;
-    margin-top: 1rem;
   }
 
   .menu-introduction {
