@@ -8,11 +8,11 @@ interface SushiProps {
 
 const Sushi = ({ uramaki }: SushiProps): React.ReactElement => {
   return (
-    <SushiStyled className={`uramaki ${uramaki.soldOut ? "sold-out" : ""}`}>
+    <SushiStyled className="uramaki">
       <img
         src={uramaki.photoName}
         alt={uramaki.name}
-        className="uramaki-picture"
+        className={`uramaki-picture ${uramaki.soldOut ? "sold-out" : ""}`}
       />
       <div className="uramaki-container">
         <h3 className="uramaki-title">{uramaki.name}</h3>
