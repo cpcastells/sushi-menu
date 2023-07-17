@@ -33,8 +33,8 @@ const SushiStyled = styled.article`
     font-size: 1.6rem;
   }
 
-  .uramaki.sold-out img {
-    filter: grayscale();
+  .uramaki-picture.sold-out {
+    filter: grayscale(100%);
     opacity: 0.8;
   }
 `;
