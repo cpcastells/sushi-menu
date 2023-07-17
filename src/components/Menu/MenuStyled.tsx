@@ -29,6 +29,12 @@ const MenuStyled = styled.main`
     grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
   }
+
+  @media (max-width: 1140px) {
+    .sushi {
+      grid-template-columns: 1fr;
+    }
+  }
 `;
 
 export default MenuStyled;

@@ -18,7 +18,7 @@ const Sushi = ({ uramaki }: SushiProps): React.ReactElement => {
         <h3 className="uramaki-title">{uramaki.name}</h3>
         <p className="uramaki-ingredients">{uramaki.ingredients}</p>
         <span className="uramaki-price">
-          {uramaki.soldOut ? "SOLD OUT" : uramaki.price}
+          {uramaki.soldOut ? "SOLD OUT" : `${uramaki.price} €`}
         </span>
       </div>
     </SushiStyled>
