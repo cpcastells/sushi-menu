@@ -10,14 +10,14 @@ const OrderStyled = styled.div`
     color: inherit;
     font-size: 1.4rem;
     font-weight: 500;
-    background-color: #edc84b;
+    background-color: #be9408;
     padding: 1.4rem 3.2rem;
     border-radius: 5px;
     transition: all 0.2s;
   }
 
   .order:hover {
-    background-color: #e9bb24;
+    background-color: #a17d06;
   }
 `;
 
