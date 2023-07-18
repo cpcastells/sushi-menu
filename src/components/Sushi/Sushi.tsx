@@ -12,6 +12,8 @@ const Sushi = ({ uramaki }: SushiProps): React.ReactElement => {
       <img
         src={uramaki.photoName}
         alt={uramaki.name}
+        height={128}
+        width={192}
         className={`uramaki-picture ${uramaki.soldOut ? "sold-out" : ""}`}
       />
       <div className="uramaki-container">
