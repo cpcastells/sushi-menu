@@ -9,7 +9,7 @@
     <li>
       <a href="#overview">Overview</a>
       <ul>
-        <li><a href="#screenshot">Built with</a></li>
+        <li><a href="#screenshot">Screenshot</a></li>
         <li><a href="#built-with">Built with</a></li>
         <li><a href="#tested-with">Tested with</a></li>
       </ul>
@@ -42,10 +42,6 @@ In addition to the practical implementation of React and TypeScript concepts, th
   <img src="https://cdn.discordapp.com/attachments/1114204200885301331/1130492896114655333/sushimenus.netlify.app_.png" alt="Login page" width="600">
 </div>
 
-### Demo
-
-- Live Site URL: [https://sushimenus.netlify.app/](https://sushimenus.netlify.app/)
-
 ### Built with
 
 <div align="center">
@@ -67,12 +63,11 @@ In addition to the practical implementation of React and TypeScript concepts, th
   <a href="https://testing-library.com/docs/react-testing-library"><img src="https://img.shields.io/badge/React_Testing_Library-Testing-orange?logo=testing-library" alt="React Testing Library"></a>
 </div>
 
-<a id="contact"></a>
+## Demo
 
-<div align="center">
-  <h3 style="font-size: 1.5rem; border-bottom: 2px solid #DDD; width: 100%;">Contact</h3>
-</div>
-<br>
+- Live Site URL: [https://sushimenus.netlify.app/](https://sushimenus.netlify.app/)
+
+## Contact
 
 <div align="center">
   <a href="https://www.linkedin.com/in/carlespueyodeveloper/">
